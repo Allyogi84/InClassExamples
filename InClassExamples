@@ -1,0 +1,18 @@
+using System;
+
+namespace InClassExamples
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+
+            var teacherAge = 33;
+
+            var sentence = "hello my age is " + teacherAge + " years old";
+
+            Console.WriteLine(sentence);
+
+        }
+    }
+}
