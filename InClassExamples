@@ -6,10 +6,14 @@ namespace InClassExamples
     {
         static void Main(string[] args)
         {
-
             var teacherAge = 33;
+            var score = 98;
 
-            var sentence = "hello my age is " + teacherAge + " years old";
+            var sentence1 = "hello my age is " + teacherAge + " years old";
+
+
+            //string interpelation
+            var sentence = $"Hello my age is {teacherAge} years old and I got a {score} on my exam";
 
             Console.WriteLine(sentence);
 
